@@ -2,4 +2,39 @@
 body {
     font-family: consolas;
     color: greenyellow;
+    margin: 0px;
+}
+
+main {
+    margin: 20px;
+}
+
+h1 {
+    font-family: consolas;
+    text-shadow: 3px 3px 2px rgb(169, 94, 151);
+    margin: 20px;
+}
+
+.navbar ul{
+    list-style-type: none; /* removes circles */
+    background-color: hsl(80, 61%, 50%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: greenyellow;
+    text-decoration: none; /* removes the underline */
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: violet; /* hsl( 0, 0, 10 gibi yap */
+}
+
+.navbar li{
+    float: left;
 }
